@@ -1,0 +1,189 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+/*The main*/
+body {
+  background-color: #000000;
+  font-family: "museo-sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: white
+}
+.bold{
+  font-weight: bold;
+}
+/*Social media link area*/
+footer {
+  padding-bottom: 15px;
+}
+.footermove{
+  display: flex;
+  justify-content: space-between;
+}
+.footerlink{
+  font-weight: bold;
+}
+/*Genral Headings*/
+h1 {
+  text-align: center;
+}
+.center {
+  text-align: center;
+}
+.topimg{
+  display: flex;
+  justify-self: center;
+  padding: 50px;
+  height: 30%;
+  width: 30%;
+}
+/*Navbar*/
+/*General navbar as a whole*/
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: baseline;
+}
+
+/*Text format in navbar*/
+.index-card {
+  display: flex;
+  border: 1px solid white;
+}  
+
+/*Navbar Link formatting*/
+.navbar a:link {
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 1rem 3rem;
+}
+.indexheader {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+/*Index page top*/
+.indexbox {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+/*Index page top image*/
+.indexblurb img {
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  vertical-align: center;
+  align-items: center;
+}
+.indexblurb p {
+  padding-right: 25px;
+}
+.indexblurb {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 1000px
+}
+/*links*/
+a:link {
+  color: #ffffff;
+}
+
+/*Navbar Visited*/
+.navbar a:visited {
+  color: #FFFFFF;
+}
+
+/*General Link Fix*/
+a:visited {
+  color: #ffffff
+}
+
+/*Hovering over links in Navbar*/
+.index-card:hover {
+  background-color: #FFFFFF;
+  color:#000000
+}
+.index-card a:hover {
+  color:#000000
+}
+/*Awards sections*/
+.awardsyears {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.year {
+  text-align: center;
+}  
+/*Supporters links*/
+.supportlink {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.subtitle{
+  size: 20px;
+  font-weight: bold;
+}
+/*Leaders Gallery*/
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+.leadercard {
+  display: flex;
+  align-items: top;
+  border-width: 1px;
+  border: 1px solid white;
+}
+.leaderblurb {
+  margin-top: 2rem;
+  margin-left: 3rem;
+  display: flex;
+}
+.leadersubtitle {
+  margin-left: 5rem;
+  display: flex;
+}
+.leaderimg{
+  padding: 20px;
+  height: 320px;
+  width: 240px;
+}
+.notes{
+  margin-left: 40px;
+}
+.photo-card {
+  display: flex;
+  width: 300px;
+  text-align: center;
+  margin: 10px;
+  justify-content: baseline;
+  flex-direction: column;
+  align-items: center;
+}
+.card-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.indexblurb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.insta {
+  vertical-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
