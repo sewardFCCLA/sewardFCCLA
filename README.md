@@ -1,4 +1,4 @@
-## Hi there 👋
+Just the website for the Seward High School's (NE) FCCLA club. 
 
 <!--
 **sewardFCCLA/sewardFCCLA** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
